@@ -1,7 +1,6 @@
 #! /usr/bin/python
 import subprocess
 import os
-import pprocess
 import time
 import numpy as np
 from multiprocessing import Pool
