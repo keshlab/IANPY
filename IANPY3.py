@@ -5,8 +5,8 @@ import time
 import numpy as np
 from multiprocessing import Pool
 
-cmd = raw_input('Please enter the FreeSurfer commands you\'d like to run \n (options: recon1, pial, recon23, reconcp, lgi, gcut) : ')
-proc = raw_input('Please enter the number of parallel processes you\'d like to run: ')
+cmd = input('Please enter the FreeSurfer commands you\'d like to run \n (options: recon1, pial, recon23, reconcp, lgi, gcut) : ')
+proc = input('Please enter the number of parallel processes you\'d like to run: ')
 
 # Parallel computation:
 def makelist():
